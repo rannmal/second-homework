@@ -1,0 +1,17 @@
+add = function(a, b)
+{
+  return a + b;
+}
+
+add = function(a,b)
+{
+  return a * b;
+}
+
+function math()
+{
+var number = document.getelementById('num');
+var x = Number(num.value);
+var k = multi(2,x);
+add(k,3);
+}
